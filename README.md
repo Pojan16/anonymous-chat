@@ -4,7 +4,7 @@
 * Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download) 
 
 ```bash
-git clone https://github.com/ariffb25/anonymous-chat
+git clone https://github.com/Pojan16/anonymous-chat
 cd anonymous-chat
 npm i
 node .
@@ -25,7 +25,7 @@ node .
 
 * Menggunakan session dari nama file yang berbeda, default session.data.json
 
-* Contoh nama file ariffb.data.json maka penggunaannya `node . --session 'ariffb.data'`
+* Contoh nama file gema.data.json maka penggunaannya `node . --session 'gema.data'`
 
 ### `--prefix <prefixes>`
 
@@ -72,3 +72,5 @@ conn.logger.level = 'debug'
 [Adiwajshing](https://github.com/Adiwajshing)
 
 [Nurutomo](https://github.com/Nurutomo)
+
+[Ariffb](https://github.com/ariffb25)
