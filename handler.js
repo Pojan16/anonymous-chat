@@ -191,7 +191,7 @@ module.exports = {
           if (xp > 200) m.reply('Ngecit -_-') // Hehehe
           else m.exp += xp
           if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-            this.send2Button(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, '© wabot-aq', 'Buy', `${usedPrefix}buy`, 'Buy All', `${usedPrefix}buyall`, m)
+            this.send2Button(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, '© anonymous', 'Buy', `${usedPrefix}buy`, 'Buy All', `${usedPrefix}buyall`, m)
             continue // Limit habis
           }
           let extra = {
@@ -311,7 +311,7 @@ global.dfail = (type, m, conn) => {
     rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Ariffb.19*'
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Pojan.16*'
   }[type]
   if (msg) return m.reply(msg)
 }
